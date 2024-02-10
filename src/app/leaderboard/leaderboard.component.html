@@ -1,0 +1,63 @@
+<h1 class="text-center text-4xl">Leaderboard</h1>
+<div class="flex grid-cols-3 w-full">
+    <div class="w-full">
+        <h4 class="text-orange-300 text-center text-lg">Daily</h4>
+        <table class="w-full">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Token</th>
+                    <th>Elo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let player of dailyplayers">
+                    <td>{{player.name}}</td>
+                    <td>{{player.nickname}}</td>
+                    <td>{{player.elo}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="w-full">
+        <h2 class="text-orange-300 text-center text-lg">All-Time</h2>
+        <table class="w-full">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Token</th>
+                    <th>Elo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let player of allTimeplayers">
+                    <td>{{player.name}}</td>
+                    <td>{{player.nickname}}</td>
+                    <td>{{player.elo}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="w-full">
+        <h3 class="text-orange-300 text-center text-lg">Weekly</h3>
+        <table class="w-full">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Token</th>
+                    <th>Elo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let player of weeklyplayers">
+                    <td>{{player.name}}</td>
+                    <td>{{player.nickname}}</td>
+                    <td>{{player.elo}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</div>
