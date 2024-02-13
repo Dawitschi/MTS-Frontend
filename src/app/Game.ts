@@ -1,6 +1,6 @@
 export interface Game {
     id: Number;
-    timeOfGame: Date[];
+    timeOfGame: Date;
     gamefinished: boolean;
     team1_ID: Number;
     team2_ID: Number;
