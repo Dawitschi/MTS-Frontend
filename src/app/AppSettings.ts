@@ -9,8 +9,8 @@ export class AppSettings {
             gamefinished: true,
             team1_ID: 1,
             team2_ID: 2,
-            team1Score: 5,
-            team2Score: 7,
+            team1Score: 8,
+            team2Score: 9,
             table: 1,
             score_IDs: [1,2,3,4]
         },
@@ -21,7 +21,7 @@ export class AppSettings {
             team1_ID: 52,
             team2_ID: 53,
             team1Score: 5,
-            team2Score: 7,
+            team2Score: 4,
             table: 1,
             score_IDs: [1,2,3,4]
         },
@@ -42,7 +42,7 @@ export class AppSettings {
             gamefinished: true,
             team1_ID: 56,
             team2_ID: 57,
-            team1Score: 5,
+            team1Score: 10,
             team2Score: 7,
             table: 1,
             score_IDs: [1,2,3,4]

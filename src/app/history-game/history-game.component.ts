@@ -11,7 +11,9 @@ import { BrowserModule } from '@angular/platform-browser';
   styleUrl: './history-game.component.css'
 })
 export class HistoryGameComponent {
-  @Input({required: true}) game!:Game;
-
-  constructor() {}
+  @Input({required: true, alias: "game"}) game!: Game;
+  
+  constructor() {
+    
+  }
 }

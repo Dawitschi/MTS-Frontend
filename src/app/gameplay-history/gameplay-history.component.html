@@ -1,1 +1,6 @@
-<app-history-game class="" *ngFor="let game of games" [game]="game"> test</app-history-game>
+<div class="grid grid-cols-1 gap-3 pt-5">
+    <div class="" *ngFor="let game of games">
+        <app-history-game class="" [game]="game"></app-history-game>
+    </div>
+</div>
+
