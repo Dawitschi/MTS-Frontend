@@ -2,6 +2,17 @@ import { Game } from "./Game";
 
 export class AppSettings {
     public static API_ENDPOINT: String='http://localhost:8080';
+    public static TEST_GAME: Game = {
+        id: 1, 
+        timeOfGame: new Date,
+        gamefinished: true,
+        team1_ID: 1,
+        team2_ID: 2,
+        team1Score: 8,
+        team2Score: 9,
+        table: 1,
+        score_IDs: [1,2,3,4]
+    }
     public static TEST_GAMES: Game[]  = [
         {
             id: 1, 

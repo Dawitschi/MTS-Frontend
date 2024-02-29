@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppSettings } from '../AppSettings';
 
 @Component({
   selector: 'app-gameplay-tischkicker',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './gameplay-tischkicker.component.css'
 })
 export class GameplayTischkickerComponent {
-
+  game = AppSettings.TEST_GAME
 }
