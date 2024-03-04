@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { AccountService } from '../account.service';
-import { Account } from '../Account';
+import { AccountService } from '../../Services/Account/account.service';
+import { Account } from '../../Objects/Account';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HttpClientModule} from '@angular/common/http';
-import { Player } from '../Player';
-import { LeaderboardService } from '../leaderboard.service';
+import { Player } from '../../Objects/Player';
+import { LeaderboardService } from '../../Services/Leaderboard/leaderboard.service';
 
 
 @Component({

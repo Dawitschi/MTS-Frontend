@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AppSettings } from '../AppSettings';
+import { AppSettings } from '../../Objects/AppSettings';
 
 @Component({
   selector: 'app-gameplay-tischkicker',
