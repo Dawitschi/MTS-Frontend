@@ -14,7 +14,7 @@ import { ContentComponent } from '../content/content.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HttpClientModule,
+  imports: [CommonModule, RouterOutlet,
      TopBarComponent, FooterComponent, ContentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
