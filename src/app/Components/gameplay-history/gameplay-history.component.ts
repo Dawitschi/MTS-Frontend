@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Game } from '../Game';
+import { Game } from '../../Objects/Game';
 import { HistoryGameComponent } from '../history-game/history-game.component';
-import { appConfig } from '../app.config';
-import { GameService } from '../game.service';
+import { appConfig } from '../../app.config';
+import { GameService } from '../../Services/Leaderboard/Game/game.service';
 import { response } from 'express';
 import { CommonModule } from '@angular/common';
 

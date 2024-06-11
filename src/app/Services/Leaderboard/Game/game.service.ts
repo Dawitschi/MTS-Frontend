@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { AppSettings } from './AppSettings';
+import { AppSettings } from '../../../Objects/AppSettings';
 import { HttpClient } from '@angular/common/http';
-import { Game } from './Game';
+import { Game } from '../../../Objects/Game';
 import { Observable, of} from 'rxjs';
 
 @Injectable({
