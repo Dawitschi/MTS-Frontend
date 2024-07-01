@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { GameplayHistoryComponent } from '../gameplay-history/gameplay-history.component';
-import { GameplayTischkickerComponent } from '../gameplay-tischkicker/gameplay-tischkicker.component';
+import { GameplayHistoryComponent } from './gameplay-history/gameplay-history.component';
+import { GameplayTischkickerComponent } from './gameplay-history/gameplay-tischkicker/gameplay-tischkicker.component';
 
 @Component({
   selector: 'app-gameplay',

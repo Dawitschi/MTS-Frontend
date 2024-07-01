@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Game } from '../../Objects/Game';
+import { Game } from '../../../../../../Objects/Game';
 import { CommonModule, NgFor, NgForOf } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 

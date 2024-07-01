@@ -7,9 +7,9 @@ import { response } from 'express';
 import { HttpClientModule, HttpErrorResponse } from '@angular/common/http';
 import { error } from 'console';
 import { NgModel } from '@angular/forms';
-import { TopBarComponent } from '../top-bar/top-bar.component';
-import { FooterComponent } from '../footer/footer.component';
-import { ContentComponent } from '../content/content.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContentComponent } from '../main-view/content/content.component';
 
 @Component({
   selector: 'app-root',

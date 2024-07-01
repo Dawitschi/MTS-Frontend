@@ -34,7 +34,7 @@ export class LogInService {
 }
 
   public login(password:Text, username: Text) {
-    return this.http.post<Account>(`${environment.apiUrl}/users/authenticate`, { username, password }).pipe(map(account => {
+    return this.http.post<Account>(`${environment.apiUrl}/account/authenticate`, { username, password }).pipe(map(account => {
       // store user details and jwt token in local storage to keep user logged in between page refreshes
       localStorage.setItem('user', JSON.stringify(account));
       this.accountSubject!.next(account);
